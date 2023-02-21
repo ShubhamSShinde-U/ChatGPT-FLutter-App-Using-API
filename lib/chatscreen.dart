@@ -34,9 +34,9 @@ class _ChatScreenState extends State<ChatScreen> {
     body: SafeArea(
       child: Column(
           children: [
-            // Flexible(child: Container(
-            //   height: context.screenHeight,
-            // )),
+            Flexible(child: Container(
+              height: context.screenHeight,
+            )),
             Container(
               decoration: BoxDecoration(
                 color: context.cardColor
