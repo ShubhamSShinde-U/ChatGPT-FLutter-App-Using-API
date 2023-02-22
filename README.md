@@ -1,10 +1,22 @@
-# chatgpt_demo
+# Chatgpt Integration with Flutter
 
 A new Flutter project.
+
+You can search any thing using this app as we do on chatGPT website(https://platform.openai.com/overview)
+
+![Screenshot 2023-02-22 141723](https://user-images.githubusercontent.com/90249532/220568989-d295b244-916f-4c1e-ad58-84141d99e7ca.jpg)
+
+## Show some ❤️ and mark as Star ⭐
+
+<img src="https://cdn-icons-png.flaticon.com/512/2573/2573337.png" width=30%>
+
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+
+## API Key
+- https://platform.openai.com/account/api-keys
 
 A few resources to get you started if this is your first Flutter project:
 
