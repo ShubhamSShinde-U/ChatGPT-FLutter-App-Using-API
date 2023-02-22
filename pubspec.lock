@@ -32,12 +32,10 @@ packages:
   chat_gpt_sdk:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "7e6565831cd9b8b74a7b376042f952d6c54bea60"
-      url: "https://github.com/iampawan/Flutter-ChatGPT.git"
-    source: git
-    version: "1.0.2+4"
+      name: chat_gpt_sdk
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   clock:
     dependency: transitive
     description:
@@ -92,6 +90,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_dotenv:
+    dependency: "direct main"
+    description:
+      name: flutter_dotenv
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.2"
   flutter_lints:
     dependency: "direct dev"
     description:
