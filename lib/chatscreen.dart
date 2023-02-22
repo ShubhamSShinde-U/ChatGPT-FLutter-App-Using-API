@@ -57,7 +57,7 @@ class _ChatScreenState extends State<ChatScreen> {
       final request = CompleteText(prompt:message.text,model: kTranslateModelV3);
     
     
-    _subscription = chatGPT!.build(token: "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")
+    _subscription = chatGPT!.build(token: "PUT YOUR API KEY")
     .onCompleteStream(request:request)
     .listen((responce) {
       Vx.log(responce!.choices[0].text);
